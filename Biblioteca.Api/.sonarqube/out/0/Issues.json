@@ -1,0 +1,511 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.13.0.0",
+        "fileVersion": "4.13.0-3.25227.3 (fe188fa9)",
+        "semanticVersion": "4.13.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'AspNetRoles' 5 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 41,
+                  "endLine": 71,
+                  "endColumn": 54
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 41,
+                  "endLine": 130,
+                  "endColumn": 54
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 24,
+                  "endLine": 168,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 218,
+                  "startColumn": 23,
+                  "endLine": 218,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'AspNetUsers' 8 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 23,
+                  "endLine": 29,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 41,
+                  "endLine": 92,
+                  "endColumn": 54
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 41,
+                  "endLine": 112,
+                  "endColumn": 54
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 41,
+                  "endLine": 136,
+                  "endColumn": 54
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 41,
+                  "endLine": 156,
+                  "endColumn": 54
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 24,
+                  "endLine": 189,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 194,
+                  "startColumn": 24,
+                  "endLine": 194,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 23,
+                  "endLine": 221,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null,
+              "6": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'INTEGER' 7 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 63,
+                  "endLine": 39,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 69,
+                  "endLine": 44,
+                  "endColumn": 78
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 65,
+                  "endLine": 45,
+                  "endColumn": 74
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 63,
+                  "endLine": 47,
+                  "endColumn": 72
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 65,
+                  "endLine": 48,
+                  "endColumn": 74
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 50,
+                  "endLine": 59,
+                  "endColumn": 59
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Migrations/20250616225256_AddIdentity.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 50,
+                  "endLine": 80,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null,
+              "5": null
+            }
+          }
+        },
+        {
+          "ruleId": "S6964",
+          "level": "warning",
+          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Dtos/BookCreateDto.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6960",
+          "level": "warning",
+          "message": "This controller has multiple responsibilities and could be split into 2 smaller controllers.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Controllers/UsersController.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 18,
+                  "endLine": 12,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Controllers/UsersController.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 42,
+                  "endLine": 27,
+                  "endColumn": 47
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Controllers/UsersController.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 42,
+                  "endLine": 40,
+                  "endColumn": 48
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Controllers/UsersController.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 67,
+                  "endLine": 92,
+                  "endColumn": 73
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Controllers/UsersController.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 54,
+                  "endLine": 71,
+                  "endColumn": 56
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Controllers/UsersController.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 42,
+                  "endLine": 49,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "May belong to responsibility #1.",
+              "1": "May belong to responsibility #1.",
+              "2": "May belong to responsibility #2.",
+              "3": "May belong to responsibility #2.",
+              "4": "May belong to responsibility #2."
+            }
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await MigrateAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Program.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 5,
+                  "endLine": 56,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await RunAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/twtom/Desktop/IntegradorBEII/Biblioteca.Api/Program.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 1,
+                  "endLine": 90,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S1192": {
+          "id": "S1192",
+          "shortDescription": "String literals should not be duplicated",
+          "fullDescription": "Duplicated string literals make the process of refactoring complex and error-prone, as any change would need to be propagated on all occurrences.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1192",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6960": {
+          "id": "S6960",
+          "shortDescription": "Controllers should not have mixed responsibilities",
+          "fullDescription": "ASP.NET controllers should not have mixed responsibilities. Following the Single Responsibility Principle (SRP), they should be kept lean and focused on a single, separate concern. In short, they should have a single reason to change.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6960",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6964": {
+          "id": "S6964",
+          "shortDescription": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "fullDescription": "\"Under-posting\" refers to a situation where a client sends less data than expected to the server during an HTTP request, for example when the client omits some properties from the request body that the server expects to receive.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6964",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6966": {
+          "id": "S6966",
+          "shortDescription": "Awaitable method should be used",
+          "fullDescription": "In an async method, any blocking operations should be avoided.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6966",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

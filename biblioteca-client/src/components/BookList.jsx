@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getBooks, deleteBook } from "../services/bookService";
 
-export function BookList({ onEdit }) {
+export function BookList({ onEdit, canEdit = false }) {
   const [books, setBooks] = useState([]);
 
   useEffect(() => { load(); }, []);
@@ -27,20 +27,22 @@ export function BookList({ onEdit }) {
               <br />
               <small className="text-muted">{b.authorName}</small>
             </div>
-            <div>
-              <button
-                onClick={() => onEdit(b)}
-                className="btn btn-sm btn-outline-secondary me-2"
-              >
-                ✏️
-              </button>
-              <button
-                onClick={() => handleDelete(b.id)}
-                className="btn btn-sm btn-outline-danger"
-              >
-                🗑️
-              </button>
-            </div>
+            {canEdit && (
+              <div>
+                <button
+                  onClick={() => onEdit(b)}
+                  className="btn btn-sm btn-outline-secondary me-2"
+                >
+                  ✏️
+                </button>
+                <button
+                  onClick={() => handleDelete(b.id)}
+                  className="btn btn-sm btn-outline-danger"
+                >
+                  🗑️
+                </button>
+              </div>
+            )}
           </li>
         ))}
         {books.length === 0 && (
